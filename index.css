@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: "Kumbh Sans";
+}
+
+.header-container{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    padding: 15px;
+}
+
+nav {
+    display: inline-block;
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.icon-cart{
+    position: relative;
+    left: 125px;
+}
+
+.avatar{
+    width: 7%;
+    position: relative;
+    left: 140px;
+}
+
+.product-1{
+    width: 100%;
+    margin: 12px 0 10px;
+}
+
+.product-info{
+    width: 100%;
+    padding: 15px;
+}
+
+.company-name{
+    margin: 10px 0;
+    font-family: "Kumbh Sans";
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+}
+
+.product-name{
+    margin: 20px auto;
+}
+
+.product-desc{
+    margin: 5px auto 0px;
+    font-family: "Kumbh Sans";
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.price-info{
+    width: 100%;
+    margin: 1px auto;
+    padding: 15px;
+
+}
+
+.price{
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.discount-percent{
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 4px;
+    left: 6px;
+}
+
+.old-price{
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 4px;
+    left: 100px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+}
+
+.product-counter{
+    margin: 15px auto;
+    width: 90%;
+    padding: 13px;
+    text-align: center;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 9px;
+
+}
+
+.decrease{
+    color: hsl(26, 100%, 55%);
+    font-size: 2rem;
+    font-family: "Kumbh Sans";
+    position: relative;
+    font-weight: 700;
+    right: 110px;
+}
+
+.decrease a{
+    color: hsl(26, 100%, 55%);
+    text-decoration: none;
+}
+
+.nil{
+    font-size: 1.5rem;
+    font-family: "Kumbh Sans";
+    font-weight: 500; 
+}
+
+
+.increase{
+    color: hsl(26, 100%, 55%);
+    font-size: 2rem;
+    font-family: "Kumbh Sans";
+    position: relative;
+    font-weight: 700;
+    left: 110px;
+}
+
+.increase a{
+    color: hsl(26, 100%, 55%);
+    text-decoration: none;
+}
+
+.btn {
+    background: hsl(26, 100%, 55%);
+    background-image: -webkit-linear-gradient hsl(26, 100%, 55%);
+    background-image: -moz-linear-gradient hsl(26, 100%, 55%);
+    background-image: -ms-linear-gradient hsl(26, 100%, 55%);
+    background-image: -o-linear-gradient hsl(26, 100%, 55%);
+    background-image: linear-gradient(to bottom, hsl(26, 100%, 55%));
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Kumbh Sans";
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 20px;
+    width:90%;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .material-symbols-outlined.md-48{
+    font-size:1.4rem;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+
+
+
