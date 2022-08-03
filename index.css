@@ -8,6 +8,11 @@ body{
     font-family: "Kumbh Sans";
 }
 
+.main-container{
+    width: 90%;
+    margin: 25px auto;
+}
+
 .header-container{
     width: 100%;
     position: sticky;
@@ -21,6 +26,10 @@ header{
     padding: 15px;
 }
 
+.logo-img{
+    width: 30%;
+}
+
 nav {
     display: inline-block;
     display: none;
@@ -31,20 +40,28 @@ nav ul li{
 }
 
 .icon-cart{
+    display: inline;
+    float: right;
     position: relative;
-    left: 125px;
+    left: -30px;
 }
 
 .avatar{
-    width: 7%;
+    display: inline;
+    max-width: 30px;
+    float: right;
     position: relative;
-    left: 140px;
+    left: 30px;
+    bottom: 5px;
 }
-
 .product-1{
     width: 100%;
     margin: 12px 0 10px;
 }
+.products-preview{
+    display: none;
+}
+
 
 .product-info{
     width: 100%;
@@ -88,17 +105,16 @@ nav ul li{
     color: hsl(26, 100%, 55%);
     border-radius: 8px;
     padding: 5px;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     position: relative;
-    bottom: 4px;
+    bottom: 6px;
     left: 6px;
 }
 
 .old-price{
     font-size: 1.1rem;
-    position: relative;
-    bottom: 4px;
-    left: 100px;
+    float: right;
+    margin-top: 5px;
     color: hsl(220, 14%, 75%);
     text-decoration: line-through;
 }
@@ -117,9 +133,9 @@ nav ul li{
     color: hsl(26, 100%, 55%);
     font-size: 2rem;
     font-family: "Kumbh Sans";
-    position: relative;
+    float: left;
     font-weight: 700;
-    right: 110px;
+    margin-top: -8px;
 }
 
 .decrease a{
@@ -128,7 +144,7 @@ nav ul li{
 }
 
 .nil{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Kumbh Sans";
     font-weight: 500; 
 }
@@ -138,9 +154,10 @@ nav ul li{
     color: hsl(26, 100%, 55%);
     font-size: 2rem;
     font-family: "Kumbh Sans";
-    position: relative;
     font-weight: 700;
-    left: 110px;
+    float: right;
+    margin-top: -8px;
+   
 }
 
 .increase a{
@@ -165,9 +182,10 @@ nav ul li{
     padding: 14px;
     text-decoration: none;
     display: inline-block;
-    margin: 5px 20px;
+    margin: 20px 20px;
     width:90%;
     text-align: center;
+    box-shadow:3px 20px 60px  hsl(25, 100%, 94%);
   }
   
   .btn:hover {
@@ -187,6 +205,134 @@ nav ul li{
     right: 10px;
 }
 
+@media only screen and (min-width: 1000px){
 
+    .header-container{
+        border-bottom: 0.2px solid hsl(220, 14%, 75%);
+    }
+    .logo-img{
+        width: 15%;
+    }
+
+    nav{
+        display:inline-block;
+        width: 60%;
+        position:relative;
+        bottom:3px;
+    } 
+
+    nav ul li{
+        display: inline-block;
+        font-size: 1.2rem;
+        margin-left: 25px;
+        line-height: 1.5;
+        font-family: "Kumbh Sans";
+    }
+
+    nav ul li a{
+        color: hsl(220, 14%, 75%);
+        text-decoration: none;
+    }
+
+    .product-1{
+        width: 50%;
+        border-radius: 10px;
+        margin: 50px 0 10px;
+    }
+
+    .products-preview{
+        margin-left: 60px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 40%;
+    }
+    
+    .product-preview{
+        object-fit: cover;
+        width: 25%;
+        margin: 8px;
+        border-radius: 20px;
+    }
+
+    .product-preview:hover{
+        border: 3px solid hsl(26, 100%, 55%);
+    }
+
+    .product-info{
+        margin-top: -670px;
+        width: 45%;
+        padding: 15px;
+        float:right;
+    }
+
+    .company-name{
+        margin: 70px 0 20px;
+        font-size: 1.1rem;
+    }
+
+    .product-name{
+        margin: 15px 160px 30px 0;
+        line-height: 1.1;
+    }
+
+    .product-desc{
+        margin: 5px auto 30px;
+        padding-right: 50px;
+        font-family: "Kumbh Sans";
+        font-size: 1.3rem;
+        line-height: 1.6;
+    }
+
+    .price-info{
+        display: inline-block;
+        margin: 15px 0;
+        width: 50%;
+        padding: 10px;
+        display: block;
+    }
+
+    .price{
+        font-family: "Kumbh Sans";
+        font-weight: 700;
+        font-size: 2rem;
+       
+    }
+
+    .old-price{ 
+        float:left;
+        margin-right: 109px; 
+        color: hsl(220, 14%, 75%);
+        text-decoration: line-through;
+    }
+
+    .product-counter{
+        width: 40%;
+        margin: 50px -2px 0px 0px ;
+        padding: 15px;
+    }
+
+    .btn{
+        position: relative;
+        bottom: 80px;
+        float: right;
+        width: 50%;
+        padding: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+}
 
 
